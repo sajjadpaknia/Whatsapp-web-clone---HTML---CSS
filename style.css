@@ -1,8 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url(./assets/css/reset-css.css);
+* {
+  box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
 body {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
+}
+#app {
+  width: 100%;
+  height: 100vh;
+  background: url(./assets/Background/green-bk.png) no-repeat center;
+  background-size: cover;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 80%;
+  height: 650px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
