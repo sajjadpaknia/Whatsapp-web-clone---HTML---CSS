@@ -13,13 +13,31 @@
   </head>
   <body>
     <div id="app">
-      <div class="container">
+      <div class="container d-grid hidden">
         <section class="aside">
           <header class="aside__tools">
-            <section class="aside__top">
-              <div class="aside__circels"></div>
-              <div class="aside__icons"></div>
-              <div class="aside__profile"></div>
+            <section class="aside__top flex">
+              <div class="aside__circles">
+                <div class="d-flex">
+                  <div class="aside__circle-red"></div>
+                  <div class="aside__circle-yellow"></div>
+                  <div class="aside__circle-green"></div>
+                </div>
+              </div>
+              <div class="aside__icons flex">
+                <div class="material-icons material-symbols-rounded">
+                  radio_button_checked
+                </div>
+                <div class="material-icons material-symbols-rounded">chat</div>
+                <div class="material-icons material-symbols-rounded">
+                  sort
+                </div>
+              </div>
+              <div class="aside__profile flex">
+                <div class="hidden">
+                  <img src="./assets/images/Avatar/01 (10).jpg" alt="" />
+                </div>
+              </div>
             </section>
             <section class="aside__search">
               <input
@@ -27,10 +45,14 @@
                 type="text"
                 placeholder="Search or start new chat"
               />
+              <span class="material-icons material-symbols-rounded">
+                search
+              </span>
             </section>
           </header>
           <main class="aside__messages"></main>
         </section>
+        <section class="message"></section>
       </div>
     </div>
   </body>
