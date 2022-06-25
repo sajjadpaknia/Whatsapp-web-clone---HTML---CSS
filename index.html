@@ -8,13 +8,30 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <div id="app">
-        
-        <div class="container"></div>
+      <div class="container">
+        <section class="aside">
+          <header class="aside__tools">
+            <section class="aside__top">
+              <div class="aside__circels"></div>
+              <div class="aside__icons"></div>
+              <div class="aside__profile"></div>
+            </section>
+            <section class="aside__search">
+              <input
+                class="aside__search-icon"
+                type="text"
+                placeholder="Search or start new chat"
+              />
+            </section>
+          </header>
+          <main class="aside__messages"></main>
+        </section>
+      </div>
     </div>
   </body>
 </html>
