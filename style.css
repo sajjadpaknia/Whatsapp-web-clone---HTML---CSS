@@ -49,8 +49,7 @@ body {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  /* padding: 2rem 1rem 0 1rem; */
-  grid-template-columns: 2fr 4fr;
+  grid-template-columns: minmax(300px,2fr) 4fr;
 }
 ::selection {
   background-color: hsl(217, 76%, 85%);
