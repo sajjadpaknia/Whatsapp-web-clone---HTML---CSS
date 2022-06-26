@@ -49,7 +49,6 @@ body {
 /* aside styles */
 .aside {
   height: 100%;
-  /* background-color: bisque; */
   padding: 0 1rem 1rem;
 }
 .aside__tools {
@@ -89,22 +88,22 @@ body {
 .aside__icons {
   width: 100px;
   margin: 0 2rem;
-  color: rgb(54, 54, 54);
+  color: hsl(0, 0%, 40%);
 }
 .aside__icons > div {
   cursor: pointer;
 }
-.aside__profile > div {
+.profile-block > div {
   width: 50px;
   height: 50px;
   background: rgb(255, 129, 249);
   border-radius: 50%;
-  cursor: pointer;
 }
 .aside__search {
   position: relative;
+  margin-bottom: 2rem;
 }
-.aside__search-icon {
+.aside__search-input {
   width: 100%;
   outline: none;
   border: none;
