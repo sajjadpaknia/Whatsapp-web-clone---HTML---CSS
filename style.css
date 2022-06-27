@@ -49,7 +49,7 @@ body {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  grid-template-columns: minmax(300px,2fr) 4fr;
+  grid-template-columns: minmax(300px, 2fr) minmax(350px , 4fr);
 }
 ::selection {
   background-color: hsl(217, 76%, 85%);
@@ -178,7 +178,7 @@ body {
 .aside__message-box:hover {
   background-color: hsl(240, 78%, 95%);
 }
-.aside__message-box.active{
+.aside__message-box.active {
   background-color: hsl(240, 78%, 95%);
 }
 .aside__details {
@@ -238,7 +238,44 @@ body {
   -ms-border-radius: 0.4rem;
   -o-border-radius: 0.4rem;
 }
+
+/* start message section */
 .message {
   height: 100%;
   background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  flex-direction: column;
+}
+.message header {
+  width: 100%;
+  height: 50px;
+}
+.title-bar__user-info {
+  margin-left: 1rem;
+}
+.title-bar__name {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+.title-bar__last-seen {
+  color: hsl(0, 0%, 70%);
+  font-size: 1.2rem;
+}
+.title-bar__actions{
+  width: 55px;
+}
+.title-bar__actions > .material-icons {
+  font-size: 2.1rem;
+  cursor: pointer;
+}
+.message main {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  background-color: #efe559;
+}
+.message footer {
+  width: 100%;
+  height: 50px;
+  background-color: #7959ef;
 }
