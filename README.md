@@ -2,7 +2,7 @@
 
 # Whatsapp web (clone)
 
-Google today needs to change a bit. I was interested in changing this social network a bit. Click [here](https://sajjadpaknia.github.io/Whatsapp-web-clone---HTML---CSS/) to see the demo.
+Whatsapp today needs to change a bit. I was interested in changing this social network a bit. Click [here](https://sajjadpaknia.github.io/Whatsapp-web-clone---HTML---CSS/) to see the demo.
 
 ### Technologies
 
