@@ -4,7 +4,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/sajjadpaknia/Whatsapp-web-clone---HTML---CSS.svg?style=flat&color=brightgreen)
 ![GitHub repo size](https://img.shields.io/github/repo-size/sajjadpaknia/Whatsapp-web-clone---HTML---CSS)<br>
 
-Whatsapp today needs to change a bit. I was interested in changing this social network a bit. Click [here](https://sajjadpaknia.github.io/Whatsapp-web-clone---HTML---CSS/) to see the demo.
+Whatsapp today needs to change a bit. I was interested in changing this social network a bit. Click [here](https://sajjadpaknia.github.io/Whatsapp-web-clone---HTML---CSS/) to see the demo :)
 
 ### Technologies
 
